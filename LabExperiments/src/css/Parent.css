@@ -1,0 +1,61 @@
+.parent-container {
+    display: flex;
+    width: 90%;
+    margin: 60px auto;
+    padding: 20px;
+    min-height: 300px;
+    background: linear-gradient(90deg, #851B41 0%, #6937BE 100%);
+    border-radius: 20px;
+}
+
+.input-column, .output-column {
+    flex: 1;
+    padding: 20px;
+    border-radius: 155px;
+    background: linear-gradient(135deg, #b0a7f4, #e0dc68);
+    margin: 30px;
+    font-size: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.input-column:hover, .output-column:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
+}
+
+.display-container p {
+    margin: 10px 20px;
+    font-family: 'Poppins', Arial, sans-serif; 
+    color: #1a2b5c;
+    font-size: 18px; 
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600; 
+    color: #333; 
+    font-size: 16px;
+}
+
+button {
+    background: linear-gradient(135deg, #6bcf63, #45a049); 
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 20px 30px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); 
+}
+
+button:hover {
+    background: linear-gradient(90deg, #851B41 0%, #6937BE 100%);
+
+    transform: scale(1.05);
+}

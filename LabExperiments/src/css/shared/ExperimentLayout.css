@@ -1,0 +1,31 @@
+.experiment-layout {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.experiment-content {
+    flex: 1;
+    padding: 20px;
+    margin-top: 20px;
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Shared styles for experiment containers */
+.experiment-container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .experiment-content {
+        padding: 10px;
+    }
+}

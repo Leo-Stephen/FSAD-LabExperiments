@@ -1,0 +1,80 @@
+    .parent {
+      border: 1px solid red;
+      width: 80vw;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .login-form {
+      border: 1px solid red;
+      margin: 50px;
+      width: 20vw;
+      height: auto;
+      text-align: center;
+      justify-content: center;
+      padding: 10px;
+      box-shadow: 2px 2px 3px yellow, -2px -2px 3px yellowgreen;
+      border-radius: 20px;
+      transition: all 0.3s ease;
+    }
+
+    .mover-login {
+      border: 1px solid red;
+      margin: 50px;
+      width: 25vw;
+      height: auto;
+      text-align: center;
+      justify-content: center;
+      padding: 10px;
+      box-shadow: 2px 2px 7px yellow, -2px -2px 7px yellowgreen;
+      border-radius: 20px;
+      transition: all 0.3s ease;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    td {
+      padding: 5px;
+      border-radius: 10px;
+    }
+
+    input {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin: 5px 0;
+    }
+
+    button {
+      background-color: yellowgreen;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #6b8e23;
+    }
+
+    @media (max-width: 768px) {
+      .parent {
+        width: 95vw;
+      }
+
+      .login-form,
+      .mover-login {
+        width: 80vw;
+        margin: 20px;
+      }
+    }
+
