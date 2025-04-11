@@ -1,0 +1,6 @@
+# Database credentials
+spring.datasource.username=your_username
+spring.datasource.password=your_password
+
+# This is an example file. Copy this to application-local.properties and replace with your actual values.
+# The application-local.properties file should not be committed to Git.
