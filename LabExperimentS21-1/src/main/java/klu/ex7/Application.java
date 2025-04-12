@@ -16,39 +16,38 @@ public class Application {
 	public int function1() {
 		return 10;
 	}
-	
+
 	@GetMapping("/demo2")
 	@ResponseBody
 	public double function2() {
 		return 10.25;
 	}
-	
+
 	@GetMapping("/demo3")
 	public String function3() {
 		return "First.html";
 	}
-	
+
 	@GetMapping("/demo4")
 	@ResponseBody
 	public String function4() {
 		String univ = "KLU";
 		return "Hello" + univ;
 	}
-	
-	List<Users> l = new ArrayList<>(); 
-	  
-	  @PostMapping("/demo9")
-	  @ResponseBody
-	  public String function9(@RequestBody Users users) {
-	    l.add(users);
-	    return "User Added to the List Successfully";
-	  }
-	  
-	  @GetMapping("/demo9")
-	  @ResponseBody
-	  public List<Users> fun10() {
-	    return l;
-	  }
-	
-}
 
+	List<Users> l = new ArrayList<>();
+
+	@PostMapping("/demo9")
+	@ResponseBody
+	public String function9(@RequestBody Users users) {
+		l.add(users);
+		return "User Added to the List Successfully";
+	}
+
+	@GetMapping("/demo9")
+	@ResponseBody
+	public List<Users> fun10() {
+		return l;
+	}
+
+}

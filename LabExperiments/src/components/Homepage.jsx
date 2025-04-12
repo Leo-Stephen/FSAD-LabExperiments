@@ -33,7 +33,7 @@ export class Projecthomepage extends Component {
           </div>
         </div>
         <div id='footer'>
-          <label className='copyrightText'>Copyright © Leo Stephen - K L University. All rights reserved</label>
+          <label className='copyrightText'>Copyright © Leo Stephen. All rights reserved</label>
           <div className="social-icons">
             <img className='socialmediaIcon' src='./images/facebook.png' alt="facebook"/>
             <img className='socialmediaIcon' src='./images/linkedin.png' alt="linkedin"/>

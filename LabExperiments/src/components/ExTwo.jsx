@@ -9,10 +9,10 @@ export class ExTwo extends Component {
       <div className="experiment-layout">
         <Navbar />
         <div className="experiment-content">
-          <div className='container'> 
-            <div className='header'> 
+          <div className='container'>
+            <div className='header'>
               <div className='heading'> Welcome to KL University </div>
-              <div className='menu'> 
+              <div className='menu'>
                 <span>Home </span>
                 <span>About </span>
                 <span>Portfolio </span>
@@ -22,7 +22,7 @@ export class ExTwo extends Component {
             <div className='content'>
               <div className='card1'>
                 <div className='plogo'>
-                   <img src='../images/lap2.jpg' alt='Product Logo' width={250} height={150}/>  
+                   <img src='../images/lap2.jpg' alt='Product Logo' width={250} height={150}/>
                 </div>
                 <div className='pdetails'>
                   <div className='pname'> Product Name - Macbook air M3</div>
@@ -35,7 +35,7 @@ export class ExTwo extends Component {
               </div>
               <div className='card1'>
                 <div className='plogo'>
-                  <img src='../images/lap2.jpg' alt='Product Logo' width={250} height={150}/> 
+                  <img src='../images/lap2.jpg' alt='Product Logo' width={250} height={150}/>
                 </div>
                 <div className='pdetails'>
                   <div className='pname'> Product Name - Macbook air M2</div>
